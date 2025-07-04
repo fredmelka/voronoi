@@ -152,5 +152,7 @@ X - clearing ambiguous cases for triangulation of more than three cocyclic point
 X - polyArea => shoelace computation
 X - return areas or infinite mark (-1)
 
+https://www.bitbanging.space/
+
 https://en.wikipedia.org/wiki/Concyclic_points
 https://library.fridoverweij.com/docs/intersection_line_circle/#bnot0 */
