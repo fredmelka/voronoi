@@ -150,7 +150,4 @@ X - graph clean up for each seed point
 O - convexHull => sorting points around centroïds
 X - clearing ambiguous cases for triangulation of more than three cocyclic points
 X - polyArea => shoelace computation
-X - return areas or infinite mark (-1)
-
-https://en.wikipedia.org/wiki/Concyclic_points
-https://library.fridoverweij.com/docs/intersection_line_circle/#bnot0 */
+X - return areas or infinite mark (-1) */

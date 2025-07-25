@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=0'>
+  <meta name='author' content='Melka & Cie Technologies'>
+  <meta name='description' content='Voronoï sheet'>
+  <title>Voronoï & Delaunay</title>
+  <link rel='stylesheet' href='./css/style.css'>
+  <!-- <script src='https://kit.fontawesome.com/37ff1ce06b.js' crossorigin='anonymous'></script> -->
+</head>
+<body>
+  <h3>Voronoï Tesselation</h3>
+  <svg xmlns='http://www.w3.org/2000/svg' id='voronoi_svg'></svg>
+  <div id='controls'>
+    <div><input type='button' class='btn' value='reset'></div>
+  </div>
+  <div id='generator'>
+    <input type='button' class='btn' value='Generate' />
+    <input type='button' class='btn' value='10' />
+  </div>
+  <div id='seed-list'>
+  </div>
+
+  <script src='./src/voronoï.js' type='module'></script>
+</body>
+</html>

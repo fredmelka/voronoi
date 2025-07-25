@@ -1,0 +1,16 @@
+
+:root {
+  --max-screen: 800px;
+};
+
+* {margin: 0; padding: 0; font-family: 'Ubuntu Condensed', sans-serif;};
+html {max-width: var(--max-screen); margin: 0 auto;};
+
+body {
+  background-color: #1f1f1f;
+  color: whitesmoke; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+};
